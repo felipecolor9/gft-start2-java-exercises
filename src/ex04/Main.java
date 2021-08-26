@@ -14,7 +14,7 @@ Faça um programa que informe o Nome, RG e o salário em 2021 desse funcionário
 
 public class Main {
     public static void main(String[] args) {
-        Funcionario funcionario = new Funcionario("Felipe Marques","123456789-10",1000.00);
+        Funcionario funcionario = new Funcionario("Felipe Marques","123.456.789-10",1000.00);
         System.out.println("Salário de "+ funcionario.getNome() +" pertencente ao RG: ["+funcionario.getRg()+ "] em 2021: R$"+funcionario.calcularSalario2021(1.5, 2018));
     }
 }
