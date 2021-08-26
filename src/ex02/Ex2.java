@@ -28,8 +28,6 @@ public class Ex2 {
             System.out.println(numb);
         }
 
-
-
     }
         public static List<Integer> populateAndShuffleList() {
            Stack<Integer> numbersList = new Stack<>();
